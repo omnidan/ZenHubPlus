@@ -1,5 +1,5 @@
 # ZenHub+
-_Userstyle to make ZenHub features look more integrated on GitHub_
+_Userstyle to make [ZenHub](https://www.zenhub.io/) features look more integrated on GitHub_
 
 ![https://userstyles.org/style_screenshots/117621_after.png?r=1446249961](https://userstyles.org/style_screenshots/117621_after.png?r=1446249961)
 
