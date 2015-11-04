@@ -1,0 +1,74 @@
+/* ZenHub+ v0.5 */
+/*   made with <3 by omnidan (https://omnidan.net) */
+
+/* 0.1: make uploader look more integrated, fix margin of uploader */
+.zh-uploader-drop {
+    background-image: none;
+    margin-top: 5px;
+}
+
+/* 0.1: make +1 button look more integrated */
+.zh-paw-btn-inner {
+    background: none !important;
+    border: 1px solid #bfccd1 !important;
+    color: #767676 !important;
+}
+
+/* 0.1: make pressed +1 button have "github blue" color */
+.zh-paw-btn.is-pawed .zh-paw-btn-inner {
+	background-color: #4078c0 !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+/* 0.1/0.3: make repo switcher button look like the other buttons */
+.zh-repo-switcher .select-menu-button {
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+    background-image: linear-gradient(#fcfcfc, #eee);
+    border: 1px solid #d5d5d5;
+    color: #333;
+}
+
+.zh-repo-switcher .select-menu-button.btn:hover {
+    background-color: #ddd;
+    background-image: -webkit-linear-gradient(#eee, #ddd);
+    background-image: linear-gradient(#eee, #ddd);
+    border-color: #ccc;
+}
+
+/* 0.1: make "Export Issue" look like "Lock Issue" */
+#zh-export-issue-json {
+    background: none;
+    border: none;
+    color: #767676;
+    font-size: 12px;
+    padding: 0;
+}
+
+#zh-export-issue-json:hover {
+    background: none;
+    border: none;
+    color: #4078c0;
+}
+
+/* 0.2: fix spacing in issue list */
+.issue-comments {
+	padding-top: 8px;   
+}
+
+/* 0.4: fix estimate badge color */
+.zh-estimate-badge {
+    background-color: #4078c0;
+}
+
+/* 0.4: fix sidebar hover colors */
+.sidebar-zh-pipeline .discussion-sidebar-toggle:hover,
+.sidebar-zh-estimate .discussion-sidebar-toggle:hover {
+    color: #4078c0;
+}
+
+/* 0.5: hide estimate field if empty */
+.sidebar-zh-estimate:empty {
+    display: none;
+}
