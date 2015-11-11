@@ -25,3 +25,4 @@ Otherwise, paste the contents of [ZenHub+.css](https://github.com/omnidan/ZenHub
  * 0.5: hide estimate field if empty
  * 0.6: make todo buttons and page look better
  * 0.6: make todo page fade in
+ * 0.7: hide duplicate todo icon when using [+1 extension](https://chrome.google.com/webstore/detail/github-+1s/lddfkkebajnpiicnpfamebilmhamkeme)
