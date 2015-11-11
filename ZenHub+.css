@@ -1,4 +1,4 @@
-/* ZenHub+ v0.6 */
+/* ZenHub+ v0.7 */
 /*   made with <3 by omnidan (https://omnidan.net) */
 
 /* 0.1: make uploader look more integrated, fix margin of uploader */
@@ -56,6 +56,11 @@
 
 .zh-todopage-main .zh-todolist-today {
     color: #333;
+}
+
+/* 0.7: hide duplicate todo icon when using +1 extension */
+.js-plus-one-count > .zh-todo-issue-dropdown {
+    display: none;
 }
 
 /* 0.1: make "Export Issue" look like "Lock Issue" */
